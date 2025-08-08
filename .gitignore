@@ -1,0 +1,30 @@
+# Python venv
+backend/venv/
+
+# macOS系
+.DS_Store
+
+# Pythonキャッシュ
+__pycache__/
+*.pyc
+
+# Flaskの.envファイル（APIキーなど）
+backend/.env
+
+# Node.js
+frontend/node_modules/
+
+# ビルド成果物（必要なら）
+frontend/dist/
+
+# ログやIDE
+*.log
+.vscode/
+.idea/
+
+# データベースファイル
+a2a_chat.db
+backend/a2a_chat.db
+*.db
+*.sqlite
+*.sqlite3
